@@ -1,0 +1,7 @@
+.main-container {
+    background-color: #581845;
+    height: 100%;
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+}

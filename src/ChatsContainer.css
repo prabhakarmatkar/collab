@@ -1,0 +1,6 @@
+.chats-container {
+    flex-grow: 1;
+    color:white;
+    min-width: 230px;
+    overflow-y: auto;
+}

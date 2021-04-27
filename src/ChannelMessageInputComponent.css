@@ -1,0 +1,8 @@
+.channel-message-input-container {
+    margin-left: 5px;
+    display: flex;
+}
+
+.message-input {
+    flex: auto;
+}

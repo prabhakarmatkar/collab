@@ -1,0 +1,8 @@
+.message-container {
+    flex-grow: 4;
+    background-color: white;
+    /* padding: 0px 10px; */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
