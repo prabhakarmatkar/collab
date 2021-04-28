@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./ChatsContainer.css";
-import { ChatList } from "./ChatList";
-import { firebaseDB } from "./utils/firebase.config";
+import { ChatList } from "../ChatList/ChatList";
+import { firebaseDB } from "../../utils/firebase.config";
 export const ChatsContainer = () => {
   const [channels, setChannels] = useState([]);
   useEffect(() => {

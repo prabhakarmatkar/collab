@@ -1,11 +1,11 @@
 import React from "react";
-import { ChannelHeaderComponent } from "./ChannelHeaderComponent";
-import { ChannelMessageInputComponent } from "./ChannelMessageInputComponent";
-import { ChannelMessagesComponent } from "./ChannelMessagesComponent";
+import { ChannelHeaderComponent } from "../ChannelHeaderComponent/ChannelHeaderComponent";
+import { ChannelMessageInputComponent } from "../ChannelMessageInputComponent/ChannelMessageInputComponent";
+import { ChannelMessagesComponent } from "../ChannelMessagesComponent/ChannelMessagesComponent";
 import "./MessageContainer.css";
 import { useState } from "react";
 import { useEffect } from "react";
-import { firebaseDB } from "./utils/firebase.config";
+import { firebaseDB } from "../../utils/firebase.config";
 import { useParams } from "react-router";
 export const MessageContainer = () => {
   const { channelId } = useParams();

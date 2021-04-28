@@ -1,9 +1,8 @@
 import React from "react";
 import "./ContentComponent.css";
-import { ChatsContainer } from "./ChatsContainer";
-import { MessageContainer } from "./MessageContainer";
-import { useState } from "react";
+import { MessageContainer } from "../MessageContainer/MessageContainer";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
+import { ChatsContainer } from '../ChatsContainer/ChatsContainer';
 export const ContentComponent = () => {
   return (
     <div className="content-container">
